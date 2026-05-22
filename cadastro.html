@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Digite seu nome :</h2>
+    <!-- Campo de entrada -->
+     <input type ="text" id = "nome" placeholder = "Digite seu nome">
+     <!--Botão-->
+     <button onclick = "mostrarNome()">Enviar</button>
+     <!--Onde o resultado vai aparecer-->
+     <p id = "resultado"></p>
+     <script>
+        function mostrarNome(){
+            let nomeDigitado = document.getElementsById("nome").value;
+            document.getElementById ("resultado").innerHTML =
+            "Olá," + nomeDigitado + "!";       
+        }         
+     </script>
+     <h2>Digite seu telefone :</h2>
+     <!--Campo de entrada -->
+     <input type = "number" id = "telefone" placeholder = "Digite seu telefone">
+     <!--Botão-->
+     <button onclick = "mostrarTelefone()">Enviar</button>
+      <!--Onde o resultado vai aparecer-->
+      <p id = "resultado"></p>
+      <script>
+       function mostrarTelefone(){
+           let TelefoneDigitado = document.getElementsById("Telefone").value;
+           document.getElementById ("resultado").innerHTML =
+           "Olá," + TelefoneDigitado + "!";  
+       }
+    </script> 
+
+      <h2>Digite sua idade :</h2>
+      <!--Campo de entrada -->
+      <input type = "number" id = "idade" placeholder = "Digite sua idade">
+      <!--Botão-->
+      <button onclick = "mostrarIdade()">Enviar</button>
+       <!--Onde o resultado vai aparecer-->
+       <p id = "resultado"></p>
+       <script>
+        function mostrarIdade(){
+            let IdadeDigitada = document.getElementsById("idade").value;
+            document.getElementById ("resultado").innerHTML =
+            "Olá," + IdadeDigitada + "!";  
+        }     
+        </script> 
+        <h2>Digite sua data de nascimento :</h2>
+        <!-- Campo de entrada -->
+         <input type ="date" id = "data de nascimento" placeholder = "Digite sua data de nascimento">
+         <!--Botão-->
+         <button onclick = "mostrarDataDeNascimento()">Enviar</button>
+         <!--Onde o resultado vai aparecer-->
+         <p id = "resultado"></p>
+         <script>
+            function mostrarDataDeNascimento(){
+                let mostrarDataDeNascimentoDigiatda = document.getElementsById("Data de Nascimento").value;
+                document.getElementById ("resultado").innerHTML =
+                "Olá," + DataDeNascimentoDigitada + "!";    
+            }
+        </script> 
+        <h2>Digite seu time :</h2>
+        <!-- Campo de entrada -->
+         <input type ="text" id = "time" placeholder = "Digite seu time">
+         <!--Botão-->
+         <button onclick = "mostrarTime()">Enviar</button>
+         <!--Onde o resultado vai aparecer-->
+         <p id = "resultado"></p>
+         <script>
+            function mostrarTime(){
+                let nomeDigitado = document.getElementsById("time").value;
+                document.getElementById ("resultado").innerHTML =
+                "Olá," + timeDigitado + "!";   
+            }   
+        </script> 
+         <h2>Digite seu telefone :</h2>
+         <!--Campo de entrada -->
+         <input type = "number" id = "telefone" placeholder = "Digite seu telefone">
+         <!--Botão-->
+         <button onclick = "mostrarTelefone()">Enviar</button>
+          <!--Onde o resultado vai aparecer-->
+          <p id = "resultado"></p>
+          <script>
+           function mostrarTelefone(){
+               let TelefoneDigitado = document.getElementsById("Telefone").value;
+               document.getElementById ("resultado").innerHTML =
+               "Olá," + TelefoneDigitado + "!";  
+           }
+
+
+</body>
+</html>
